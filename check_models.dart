@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
-const String apiKey = 'AIzaSyC57O1nAyt2Iv92MoX9Wzwohqdk4KaQufo';
+const String apiKey = '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';
 
 void main() async {
   final model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
